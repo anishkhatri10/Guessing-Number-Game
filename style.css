@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #7a8b8c;
+}
+#first-page, #second-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#game-topic {
+    font-size: 60px;
+}
+
+button {
+    height: 40px;
+    width: 170px;
+    font-size: 30px;
+    margin-top: 40px;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+#about-game {
+    width: 200px;
+    font-size: 25px;
+    background-color: blue;
+}
+#score-game{
+    background-color: green;
+}
+
+
+
+/* next page CSS */
+#guess-num {
+    margin-top: 10px;
+    font-size: 25px;
+}
+#num-input {
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+}
+#submit-guess{
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    height: 30px;
+}
+#result-show{
+    margin-top: 25px;
+}
+#show-result{
+    margin-top: 20px;
+}
+
+#show-score{
+    margin-left: 30px;
+}
